@@ -17,6 +17,7 @@ export type AddressEnrollment = {
   bairro: string;
   cidade: string;
   uf: string;
+  error?: string;
 };
 
 export type RequestError = {
